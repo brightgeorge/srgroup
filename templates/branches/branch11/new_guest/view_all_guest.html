@@ -312,6 +312,8 @@ function exportTableToExcel(tableID, filename = ''){
                     <th scope="col">Number</th>
                       <th scope="col">Advance</th>
                     <th scope="col">Amount</th>
+                       <th scope="col">AADHAR No</th>
+                      <th scope="col">Address</th>
                     <th scope="col" style="width:150px;height:60px;">Remark</th>
                   </tr>
                 </thead>
@@ -348,6 +350,8 @@ function exportTableToExcel(tableID, filename = ''){
                     <th scope="row" style="height:{{table_height}};">{{i.self_mob}}</th>
                        <th scope="row" style="height:{{table_height}};">{{i.advance}}</th>
                     <th scope="row" style="height:{{table_height}};">{{i.monthly_rent}}</th>
+                      <th scope="row" style="height:{{table_height}};">{{i.parent_name}}</th>
+                       <th scope="row" style="height:{{table_height}};">{{i.permanent_address}}</th>
                     <th scope="row" style="height:{{table_height}};">{{i.remark}}</th>
                   </tr>
                 {% endfor %}
