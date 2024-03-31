@@ -90,8 +90,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'srgroup',
         'USER': 'root',
-        #'PASSWORD': '#123.com#',
-        'PASSWORD': '',
+        'PASSWORD': '#123.com#',
+        #'PASSWORD': '',
         'HOST': 'localhost',
     }
 }
